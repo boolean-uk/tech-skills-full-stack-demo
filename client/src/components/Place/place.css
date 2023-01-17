@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #626262;
+}
+
+h2 {
+  font-size: 2em;
+  color: #c1c1c1;
+  font-weight: 400;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section {
+  height: 100vh;
+
+  padding: 20px;
+
+  border: 10px solid grey;
+}
