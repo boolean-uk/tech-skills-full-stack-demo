@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import client from "../../utils/client"
+import PlaceSummary from './PlaceSummary'
 import PlaceHours from './PlaceHours'
-import './place.css'
+
+import './Place.css'
 
 function Place() {
   const [response, setResponse] = useState({ data: { openingHours: { days: {}}}})
-
   const params = useParams()
 
   useEffect(() => {
@@ -19,17 +20,8 @@ function Place() {
     { response.error ?
       <p>No such place!</p> :
       <div className="container">
-        <section>
-          <h1>{response.data.name}</h1>
-          <h2>{response.data.address}</h2>
-        </section>
-        <section>
-          <h1>Opening Hours</h1>
-          { response.data.openingHours ?
-            <PlaceHours openingHours={response.data.openingHours}/> :
-            <></>
-          }
-        </section>
+        <PlaceSummary name={response.data.name} address={response.data.address} />
+        <PlaceHours openingHours={response.data.openingHours}/>
       </div>
     }
     </>

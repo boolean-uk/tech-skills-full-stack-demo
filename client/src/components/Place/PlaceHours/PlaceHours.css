@@ -1,0 +1,16 @@
+.hours-container {
+  color: #717171;
+}
+
+.hours-container p {
+  font-size: 1.75em;
+}
+
+.hours-container div p {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.hours-container > p {
+  text-transform: capitalize;
+}

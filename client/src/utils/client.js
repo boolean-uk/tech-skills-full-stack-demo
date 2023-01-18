@@ -11,5 +11,3 @@ const client = {
 }
 
 export default client
-
-// module.exports = client
