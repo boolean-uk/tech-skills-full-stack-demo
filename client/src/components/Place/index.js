@@ -7,7 +7,7 @@ import PlaceHours from './PlaceHours'
 import './Place.css'
 
 function Place() {
-  const [response, setResponse] = useState({ data: { openingHours: { days: {}}}})
+  const [response, setResponse] = useState({data: { openingHours: { days: {}}}})
   const params = useParams()
 
   useEffect(() => {

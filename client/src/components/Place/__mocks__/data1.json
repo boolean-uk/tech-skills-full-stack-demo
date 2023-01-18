@@ -1,0 +1,72 @@
+{
+	"data": {
+		"name": "Casa Ferlin",
+		"address": "Stampfenbachstrasse 38, 8006 Zürich",
+		"openingHours": {
+			"days": {
+				"monday": [
+					{
+						"start": "11:30",
+						"end": "14:00",
+						"type": "OPEN"
+					},
+					{
+						"start": "18:30",
+						"end": "22:00",
+						"type": "OPEN"
+					}
+				],
+				"tuesday": [
+					{
+						"start": "11:30",
+						"end": "14:00",
+						"type": "OPEN"
+					},
+					{
+						"start": "18:30",
+						"end": "22:00",
+						"type": "OPEN"
+					}
+				],
+				"wednesday": [
+					{
+						"start": "11:30",
+						"end": "14:00",
+						"type": "OPEN"
+					},
+					{
+						"start": "18:30",
+						"end": "22:00",
+						"type": "OPEN"
+					}
+				],
+				"thursday": [
+					{
+						"start": "11:30",
+						"end": "14:00",
+						"type": "OPEN"
+					},
+					{
+						"start": "18:30",
+						"end": "22:00",
+						"type": "OPEN"
+					}
+				],
+				"friday": [
+					{
+						"start": "11:30",
+						"end": "14:00",
+						"type": "OPEN"
+					},
+					{
+						"start": "18:30",
+						"end": "22:00",
+						"type": "OPEN"
+					}
+				]
+			},
+			"closed_on_holidays": true,
+			"open_by_arrangement": false
+		}
+	}
+}
